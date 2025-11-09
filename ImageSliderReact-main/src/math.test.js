@@ -13,7 +13,7 @@ describe("addNumbers", () => {
     expect(addNumbers(-2, -3)).toBe(-5);
   });
 
-  // test("adds zero to a number", () => {
-  //   expect(addNumbers(5, 0)).toBe(5);
-  // });
+  test("adds zero to a number", () => {
+    expect(addNumbers(5, 0)).toBe(5);
+  });
 });
