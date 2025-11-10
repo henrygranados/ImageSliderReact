@@ -16,8 +16,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        # working-directory: ./ImageSliderReact-main
+        working-directory: ./ImageSliderReact-main
 
       - name: Run tests
         run: npm test
-        # working-directory: ./ImageSliderReact-main
+        working-directory: ./ImageSliderReact-main
