@@ -14,6 +14,6 @@ describe("addNumbers", () => {
   });
 
   test("adds zero to a number", () => {
-    expect(addNumbers(5, 0)).toBe(6);
+    expect(addNumbers(5, 0)).toBe(5);
   });
 });
